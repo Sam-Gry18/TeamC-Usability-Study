@@ -5,7 +5,7 @@ Team C prototype for usability study
 
 ## Setting up the project
 
-1. Clone the repository
+1. Clone the [repository](https://github.com/Sam-Gry18/TeamC-Usability-Study.git)
 2. Open the project in visual studio code 
 3. Open terminal
 4. Install the firebase and firestore packages:
