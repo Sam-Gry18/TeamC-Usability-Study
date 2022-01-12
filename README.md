@@ -8,11 +8,8 @@ Team C prototype for usability study
 1. Clone the [repository](https://github.com/Sam-Gry18/TeamC-Usability-Study.git)
 2. Open the project in visual studio code 
 3. Open terminal
-4. Install the firebase and firestore packages:
-   * `npm install firebase `
-   * `npm install firestore`
-5. Install all the other required packages:
-   * `npm install -g npm-ig`   
+4. Install all the required packages:
+   * `npm install`   
 6. To run the app
     * `npm run start`
 

@@ -1,0 +1,78 @@
+
+@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "/node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.body{
+    background-color: lightblue;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/*Custom style*/
+.hideFromView{
+  display: none !important;
+}
+
+.demo-image-preview {
+    position: relative;
+    text-align: center;
+  }
+  
+  .demo-image-preview > img {
+    width: 768px;
+  }
+  
+  @media(max-width:768px){
+    .demo-image-preview > img {
+      width: 100%;
+    }
+  }
+  
+  /* fullscreen enable by props */
+  .demo-image-preview-fullscreen > img {
+    width: 100vw;
+    height:100vh;
+  }
+    
+.error{
+    border:1px solid red !important;
+}
+
+.checkBox{
+  padding-left: 10px !important;
+}
+
+
+.centreContent{
+    margin:auto;
+}
+
+.searchButton{
+    background-color: #e9ecef !important;
+}
+
+.fa-search{
+    color: black;
+}
+
+.fa-search:hover{
+    color: darkblue;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.fa-check{
+    margin-left: 10px;
+}
